@@ -6,7 +6,7 @@ import java.awt.*;
 
 public class Component extends Applet implements Runnable {
 
-    private static int pixelSize = 2;
+    private static int pixelSize = 1;
 
     public static Dimension size = new Dimension(640, 320);//(640, 320)//1240, 640
     private static Dimension pixel = new Dimension(size.width / pixelSize, size.height / pixelSize);
